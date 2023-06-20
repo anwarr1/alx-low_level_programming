@@ -11,16 +11,16 @@ void print_alphabet_x10(void)
 	int round = 0;
 	char letter = 'a';
 
-	while (letter < 'z')
+	while (round < 10)
 	{
-		round = '0';
-		while (round <= 9)
+		letter = 'a';
+		while (letter <= 'z')
 		{
 			_putchar(letter);
-			round++;
+			letter++;
 		}
 		_putchar('\n');
 
-		letter++;
+		round++;
 	}
 }
