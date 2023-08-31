@@ -1,4 +1,3 @@
-why those are defined in a separate file main.h :  #ifndef _MAIN_H_
 #define _MAIN_H_
 
 void _puts_recursion(char *s);
